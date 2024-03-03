@@ -21,7 +21,7 @@ foreach  (var s in students)
 //take data from UI(Console)
 
 Console.WriteLine("---------------------------------------------------------");
-Console.WriteLine("Register");
+Console.WriteLine("Register"); //Register a student
 var student = new Student();
 Console.WriteLine("Enter your name");
 student.Name=Console.ReadLine();
