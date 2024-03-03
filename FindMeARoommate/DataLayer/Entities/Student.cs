@@ -29,7 +29,7 @@ namespace FindMeARoommate.DataLayer.Entities
         [Required]
         [MaxLength(200)]
         public string Password { get; set; }
-
+        public DateTime Birthday { get; set; }
         public bool isAdmin { get; set; }   
     }
 }
